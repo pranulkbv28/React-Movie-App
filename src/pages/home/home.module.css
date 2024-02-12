@@ -1,0 +1,72 @@
+a {
+  text-decoration: none;
+  color: black;
+  transition: 0.2s ease-in-out;
+}
+a:hover {
+  transform: scale(1.1);
+}
+hr{
+    border: 1px solid lightgray;
+}
+
+/* start of nav */
+
+.nav {
+  width: 100%;
+  text-align: center;
+}
+.inputSearch {
+  width: 20%;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid blueviolet;
+}
+.inputSearch:focus {
+  border: 2px solid skyblue;
+  outline: none;
+}
+
+/* end of nav */
+
+/* start of cardContainer */
+
+.cardContainer {
+  width: 80%;
+  margin: 30px auto 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.cardBody {
+  width: 20%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+/* start of cardHeader */
+
+.cardHeader > h1 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.cardHeader > h6 {
+  margin-top: 5px;
+}
+
+/* end of cardHeader */
+
+/* start of cardDesc */
+
+.cardDesc>p:nth-child(1){
+    margin-bottom: 0;
+}
+.cardDesc>p:nth-child(2){
+    margin-top: 5px;
+}
+
+/* end of cardDesc */
+
+/* end of cardContainer */
